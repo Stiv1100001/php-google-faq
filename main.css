@@ -39,12 +39,12 @@ header .lower ul li {
 
   font-size: 1.2rem;
   padding: .3rem 0;
-  border-bottom: 2px solid transparent;
 }
 
 header .lower ul li:last-child {
   color: blue;
   border-bottom: 2px solid blue;
+  transform: translateY(1px);
 }
 
 
@@ -58,19 +58,21 @@ header .lower ul li:last-child {
 }
 
 .container section p {
-  margin-bottom: 1rem;
-  color: gray;
+  margin-bottom: 1.4rem;
+  color: rgb(78, 78, 78);
+  line-height: 1.5rem;
+  font-size: 14px;
 }
 
 .container section h3 {
   font-weight: bold;
+  font-size: 1.4rem;
   margin-bottom: 2rem;
 }
 
 section ul li li {
   list-style-type: none;
   margin-left: 2rem;
-
 }
 
 a {
